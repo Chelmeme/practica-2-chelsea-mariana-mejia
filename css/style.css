@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(245, 238, 238);
+    margin: 0px;
+    padding: 0%;
+}
+
+    
+nav{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(228, 177, 177);
+   
+    font-family: "Playwrite HU", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+    
+    nav a {
+    font-size: 19px;
+    text-emphasis: none;
+    color: aliceblue;
+    }
+    
+     nav img{
+        width: 150px;
+        display: flex; 
+    justify-content:space-evenly; 
+     }
+     .nav2{
+        background-color: rgb(211, 203, 203);
+        text-align: center;
+        justify-content: center;
+     }
+     
+        
+     
+    
+     .h1{
+        font-size: 20px;
+        color: aliceblue;
+        text-align: center;
+        justify-content: center;
+   
+        font-family: "Playfair Display", serif;
+            font-weight: 400;
+            font-style: italic;
+          }
+          .card-container {
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            overflow-x: auto; 
+            white-space: nowrap; 
+        }
+        
+       
+        .card-container::-webkit-scrollbar {
+            height: 8px;
+        }
+        
+        .card-container::-webkit-scrollbar-thumb {
+            background-color: rgb(196, 187, 188);
+            border-radius: 4px;
+        }   
+          .card {
+            display: flex;
+            background-color: #e9b7b7;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 500px;
+            height: 320px; 
+            transition: transform 0.3s;
+   
+            flex-direction: column;
+            align-items: center;
+        }
+        
+      
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+       
+        .card img {
+            width: 150px;  
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer{
+          align-items: center;
+          align-items: center;
+           padding: 20px;
+           background-color: #e9b7b7;
+
+        }
+     
+        
+        
+       
+        
